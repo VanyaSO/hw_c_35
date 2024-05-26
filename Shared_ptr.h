@@ -27,7 +27,7 @@ public:
     }
 
 
-    T* get() { return _ptr; };
+    T* get() const { return _ptr; };
 
 };
 
